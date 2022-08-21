@@ -8,7 +8,8 @@
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=80cd56876e00"
   },
   "peerDependencies": {
     "vue": "^3.2.37"
@@ -46,5 +47,7 @@
     "overrides": {
       "jest-mock": "^28.1.3"
     }
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "design-ui@0.0.0"
 }

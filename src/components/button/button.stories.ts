@@ -35,9 +35,9 @@ Primary.storyName = '主题按钮'
 Primary.args = {
   primary: true,
 }
-Primary.play = async () => {
-  await userEvent.click(screen.getByRole('button'));
-}
+// Primary.play = async () => {
+//   await userEvent.click(screen.getByRole('button'));
+// }
 
 
 export const Secondary = Template.bind({});
